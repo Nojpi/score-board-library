@@ -49,7 +49,7 @@ public class ScoreBoardTest {
 
 
     @Test
-    void getSummaryExampleTest() throws InterruptedException {
+    void getSummaryExampleTest() {
         Match match1 = scoreBoard.startNewGame("Mexico", "Canada");
         Match match2 = scoreBoard.startNewGame("Spain", "Brazil");
         Match match3 = scoreBoard.startNewGame("Germany", "France");
